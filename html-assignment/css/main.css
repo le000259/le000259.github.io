@@ -1,5 +1,6 @@
 body {
     font-family: Bangla MN, Georgia, sans-serif;
+    font-size: 18px;
     color: darkslategray;
 }
 
@@ -8,7 +9,7 @@ header, footer {
 }
 
 .side-title {
-    color: indigo;
+    color:saddlebrown;
     text-transform: uppercase;
 }
 
