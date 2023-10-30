@@ -1,0 +1,211 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* general format */
+
+body {
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    min-width: 600px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    background-color: antiquewhite;
+    
+}
+
+/* header area */
+
+header {
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+.tophead {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+.tophead h1 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 100px;
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: blueviolet;
+} 
+
+    /* in case using the img as background 
+    text-align: center;
+    background-image: url(../images/lone-starfish-wide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 30vh;
+    line-height: 400px; */
+    
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1.5em;
+    margin: 0;
+    text-decoration: none;
+    border-left: 1px solid black;
+    width: 32.5%;
+    height: auto;
+    text-align: center;
+    
+}
+
+nav ul li:first-child {
+    border: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-weight: 900;
+    color: blue;
+    text-transform: uppercase;
+}
+
+nav ul li:hover {
+    background-color: cadetblue;
+}
+
+/* body area */
+
+.body {
+    margin: 1.5em;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    padding: 0;
+    margin: 0;
+}
+
+article img {
+    width: 200px;
+    float: left;
+    padding: 0;
+    margin: 1.5em 1.5em 1.5em 0;
+}
+
+p {
+    line-height: 1.5em; 
+    text-align:justify
+}
+
+/* fact area */
+
+.fact {
+    line-height: 1.5em;
+}
+
+.fact h3 {
+    margin: 0;
+}
+
+/* form area */
+
+h3 {
+    margin: 1.5em;
+}
+
+form {
+    border: 1px solid black;
+    margin: 0 1.5em 0 1.5em;
+}
+
+form div{
+    margin: 1.5em;
+}
+
+label {
+    display: block;
+    margin: 1em 0 1em 0;
+
+}
+
+input, textarea {
+    width: 100%;  
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    height: 30px;
+}
+
+textarea {
+    height: 200px;
+}
+
+.ask h3 {
+    margin: 0;
+}
+
+.ask label, .ask input {
+    display: inline;
+    width: 30px;
+    height: auto;
+    margin-top: 1.5em;
+}
+
+button {
+    display: block;
+    background-color: transparent;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.23em;
+    padding: 15px;
+}
+
+/* footer area */
+
+footer { 
+    margin: 0;
+    text-align: right;
+    padding: 1.5em;
+}
+
+
+
+
+
