@@ -229,4 +229,11 @@ footer {
     background-color: aqua;
 }
 
-
+    /* in case using the img as background 
+    text-align: center;
+    background-image: url(../images/lone-starfish-wide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 30vh;
+    line-height: 400px; */
