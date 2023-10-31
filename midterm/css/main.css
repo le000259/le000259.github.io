@@ -21,6 +21,7 @@ body {
     margin: 0 auto;
     width: 80%;
     background-color: antiquewhite;
+    max-width: 1200px;
     
 }
 
@@ -43,7 +44,7 @@ header {
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 100px;
+    top: 50%;
     margin: 0;
     font-size: 3em;
     text-transform: uppercase;
