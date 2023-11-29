@@ -1,0 +1,36 @@
+/* 
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif; 
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+/* should do for all the sections or divs with the same style */
+
+header,
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.fa-solid {
+    font-size: 6rem;
+    color: darkorchid;
+}
+
+.map iframe {
+    /* responsive */
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    /* will not center because this is inline so we have to block */
+    display: block;
+}
