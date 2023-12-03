@@ -1,4 +1,4 @@
-/************GLOBAL STYLES**********/
+/************ GLOBAL STYLES **********/
 
 html {
 	font-family: 'Dosis';
@@ -21,14 +21,6 @@ h1, h2, h3, h4, h5 {
 	font-weight: bold;
 }
 
-/* header,
-main,
-footer {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: antiquewhite;
-} */
-
 *,
 *::after,
 *::before {
@@ -46,7 +38,12 @@ img {
     width: 100%;
 }
 
-/* link, visited, hover/focus, active */
+.stylelv1, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* link, visited, hover/focus, active , no underline*/
 
 a,
 a:link,
@@ -59,3 +56,59 @@ a:focus {
     color: #00add8;
 }
 
+a {
+    text-decoration: none;
+}
+
+/************* HEADER *********************/
+
+.banner {
+    height: 600px;
+    background: grey url(../images/smog-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    background-color: black;
+    color: #c78b07;
+}
+ 
+.banner section{
+    background-color: rgba(255,255, 255, 0.6);
+} 
+
+
+
+/************* MAIN *********************/
+
+
+
+
+
+
+
+
+/************* FOOTER *********************/
+
+footer {
+    background-color: black;
+    color: #c78b07;
+    padding: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+/************ MOBILE *********************/
+
+
+
+
+
+
+/************ DESKTOP *********************/

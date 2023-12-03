@@ -10,8 +10,10 @@
     <!-- font link styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <!-- icon link styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -22,12 +24,12 @@
 
 <body>
     <div class="container">
-        <header class="masterheader">
+        <header>
 
             <!-- navigations in the header -->
 
-            <nav class="main-nav">
-                <ul class="nav-list">
+            <nav class="stylelv1">
+                <ul>
 
                     <!-- logo -->
                     <li>
@@ -57,12 +59,14 @@
 
             <!-- banner -->
 
-            <div class="banner" class="generaldiv">
-                <h1>Welcome to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam mollitia, officiis eum ex a
-                    asperiores illum magni iure suscipit minima vero quas. Pariatur modi, autem nemo adipisci
-                    exercitationem dignissimos dolores.</p>
-                <a href="#contact">Connect with us <i class="fa-solid fa-caret-right"></i></a>
+            <div class="stylelv1" class="banner">
+                <section>
+                    <h1>Welcome to Three Star Media</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam mollitia, officiis eum ex a
+                        asperiores illum magni iure suscipit minima vero quas. Pariatur modi, autem nemo adipisci
+                        exercitationem dignissimos dolores.</p>
+                    <a href="#contact">Connect with us <i class="fa-solid fa-caret-right"></i></a>
+                </section>
             </div>
 
         </header>
@@ -70,190 +74,223 @@
         <main>
 
             <!-- about us -->
-
-            <section class="samestylesection" id="aboutus">
-                <img src="images/about-us.jpg" alt="About Us">
-                <div class="style">
-                    <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo provident maiores animi
-                        necessitatibus. Ex iusto voluptate nulla provident. Impedit, officia voluptate consectetur
-                        dolorum
-                        deleniti quaerat similique laudantium exercitationem modi. Quibusdam.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam fugit atque exercitationem nisi
-                        totam adipisci voluptates dolor. Totam quidem esse quia id distinctio. Tempora nostrum
-                        necessitatibus aut omnis error officia!</p>
-                </div>
-            </section>
+            <div class="stylelv1">
+                <section id="aboutus">
+                    <img src="images/about-us.jpg" alt="About Us">
+                    <article>
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo provident maiores animi
+                            necessitatibus. Ex iusto voluptate nulla provident. Impedit, officia voluptate consectetur
+                            dolorum
+                            deleniti quaerat similique laudantium exercitationem modi. Quibusdam.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam fugit atque exercitationem
+                            nisi
+                            totam adipisci voluptates dolor. Totam quidem esse quia id distinctio. Tempora nostrum
+                            necessitatibus aut omnis error officia!</p>
+                    </article>
+                </section>
+            </div>
 
             <!-- Our Services -->
 
-            <section class="samestylesection" id="services">
-                <h2>Our Services</h2>
+            <div class="stylelv1">
+                <section id="services">
+                    <h2>Our Services</h2>
 
-                <!-- digital transformation -->
-                <div class="style" class="digital">
-                    <img src="images/digital.jpg" alt="Digital Transformation">
-                    <h3>Digital Transformation</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, repellendus sunt. Ipsa harum
-                        nemo praesentium aut quaerat eos deserunt odio natus, aliquid impedit ullam non quasi, magni ut
-                        optio. Est.</p>
-                    <a href="#digitalplans" target="_blank">Digital Plans <i class="fa-solid fa-caret-right"></i></a>
-                </div>
+                    <!-- digital transformation -->
+                    <section class="stylelv2" class="digital">
+                        <img src="images/digital.jpg" alt="Digital Transformation">
+                        <article>
+                            <h3>Digital Transformation</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, repellendus sunt. Ipsa
+                                harum
+                                nemo praesentium aut quaerat eos deserunt odio natus, aliquid impedit ullam non quasi,
+                                magni
+                                ut
+                                optio. Est.</p>
+                            <a href="#digitalplans" target="_blank">Digital Plans <i
+                                    class="fa-solid fa-caret-right"></i></a>
+                        </article>
+                    </section>
 
-                <!-- marketing -->
-                <div class="style" class="marketing">
-                    <img src="images/marketing.jpg" alt="marketing">
-                    <h3>Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ratione veniam omnis, eius harum
-                        voluptates debitis quas laborum modi in ullam earum pariatur at repellendus ducimus
-                        reprehenderit eum esse voluptate!</p>
-                    <a href="#marketingplans" target="_blank">Marketing Plans <i
-                            class="fa-solid fa-caret-right"></i></a>
-                </div>
+                    <!-- marketing -->
+                    <section class="stylelv2" class="marketing">
+                        <img src="images/marketing.jpg" alt="marketing">
+                        <article>
+                            <h3>Marketing</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ratione veniam omnis, eius
+                                harum
+                                voluptates debitis quas laborum modi in ullam earum pariatur at repellendus ducimus
+                                reprehenderit eum esse voluptate!</p>
+                            <a href="#marketingplans" target="_blank">Marketing Plans <i
+                                    class="fa-solid fa-caret-right"></i></a>
+                        </article>
+                    </section>
 
-                <!-- video production -->
-                <div class="style" class="video">
-                    <img src="images/video.jpg" alt="Video Production">
-                    <h3>Video Production</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa commodi impedit labore accusantium,
-                        iure iusto dicta sapiente, inventore voluptas mollitia magni porro in nulla ratione, dignissimos
-                        voluptates ea? Repellendus, incidunt!</p>
-                    <a href="#videoproduction" target="_blank">Video Plans <i class="fa-solid fa-caret-right"></i></a>
-                </div>
+                    <!-- video production -->
+                    <section class="stylelv2" class="video">
+                        <img src="images/video.jpg" alt="Video Production">
+                        <article>
+                            <h3>Video Production</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa commodi impedit labore
+                                accusantium,
+                                iure iusto dicta sapiente, inventore voluptas mollitia magni porro in nulla ratione,
+                                dignissimos
+                                voluptates ea? Repellendus, incidunt!</p>
+                            <a href="#videoproduction" target="_blank">Video Plans <i
+                                    class="fa-solid fa-caret-right"></i></a>
+                        </article>
+                    </section>
 
-                <!-- web development -->
-                <div class="style" class="web">
-                    <img src="images/web.jpg" alt="Web Development">
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cumque iusto rem qui magnam atque,
-                        impedit incidunt eius perferendis tenetur, nemo magni voluptate laboriosam quae nulla ut
-                        pariatur neque? Beatae.</p>
-                    <a href="#weblans" target="_blank">Web Plans <i class="fa-solid fa-caret-right"></i></a>
-                </div>
+                    <!-- web development -->
+                    <section class="stylelv2" class="web">
+                        <img src="images/web.jpg" alt="Web Development">
+                        <article>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cumque iusto rem qui
+                                magnam
+                                atque,
+                                impedit incidunt eius perferendis tenetur, nemo magni voluptate laboriosam quae nulla ut
+                                pariatur neque? Beatae.</p>
+                            <a href="#weblans" target="_blank">Web Plans <i class="fa-solid fa-caret-right"></i></a>
+                        </article>
+                    </section>
 
-                <!-- Print -->
-                <div class="style" class="print">
-                    <img src="images/print.jpg" alt="Print">
-                    <h3>Print</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, expedita ullam quas nesciunt,
-                        possimus fuga error illo aut explicabo numquam iure in magni ipsa cupiditate. Itaque neque
-                        voluptas reprehenderit necessitatibus.</p>
-                    <a href="#printplans" target="_blank">Print Plans <i class="fa-solid fa-caret-right"></i></a>
-                </div>
-            </section>
-
+                    <!-- Print -->
+                    <section class="stylelv2" class="print">
+                        <img src="images/print.jpg" alt="Print">
+                        <article>
+                            <h3>Print</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, expedita ullam quas
+                                nesciunt,
+                                possimus fuga error illo aut explicabo numquam iure in magni ipsa cupiditate. Itaque
+                                neque
+                                voluptas reprehenderit necessitatibus.</p>
+                            <a href="#printplans" target="_blank">Print Plans <i
+                                    class="fa-solid fa-caret-right"></i></a>
+                        </article>
+                    </section>
+                </section>
+            </div>
             <!-- Our Vision -->
 
-            <section class="samestylesection" id="vision">
-                <div class="style">
+            <div class="stylelv1" id="vision">
+                <article>
                     <h3>Our Vision</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum sequi libero, mollitia
                         cupiditate
                         sit voluptatibus perferendis nobis ad quae est ipsam laboriosam rerum recusandae sed nam.
                         Exercitationem, quaerat repellendus.</p>
                     <a href="#learnmore" target="_blank">Learn More <i class="fa-solid fa-caret-right"></i></a>
-                </div>
-            </section>
+                </article>
+            </div>
 
             <!-- Our Team -->
 
-            <section class="samestylesection" id="team">
-                <h2>Our team</h2>
+            <div class="stylelv1" id="team">
+                <section>
+                    <h2>Our team</h2>
 
-                <!-- John Doe -->
-                <img src="images/john.jpg" alt="John Doe">
-                <div class="john">
-                    <h3>John Doe</h3>
-                    <h4>CEO and Co-owner</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, doloremque quod architecto iste
-                        aliquam impedit dolores nesciunt ipsum iusto et qui iure unde est similique placeat perferendis
-                        nostrum, inventore natus.</p>
-                </div>
+                    <!-- John Doe -->
+                    <img src="images/john.jpg" alt="John Doe">
+                    <article class="john">
+                        <h3>John Doe</h3>
+                        <h4>CEO and Co-owner</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, doloremque quod architecto
+                            iste
+                            aliquam impedit dolores nesciunt ipsum iusto et qui iure unde est similique placeat
+                            perferendis
+                            nostrum, inventore natus.</p>
+                    </article>
 
-                <!-- Bob Rite -->
-                <img src="images/bob.jpg" alt="Bob Rite">
-                <div class="bob">
-                    <h3>Bob Rite</h3>
-                    <h4>CFO and Co-owner</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam voluptatum consequatur
-                        reprehenderit facilis eligendi ipsum nihil accusamus. Soluta animi, tempore sapiente veniam
-                        suscipit eum deserunt aperiam itaque, asperiores quibusdam neque!</p>
-                </div>
-
-            </section>
+                    <!-- Bob Rite -->
+                    <img src="images/bob.jpg" alt="Bob Rite">
+                    <article class="bob">
+                        <h3>Bob Rite</h3>
+                        <h4>CFO and Co-owner</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam voluptatum consequatur
+                            reprehenderit facilis eligendi ipsum nihil accusamus. Soluta animi, tempore sapiente veniam
+                            suscipit eum deserunt aperiam itaque, asperiores quibusdam neque!</p>
+                    </article>
+                </section>
+            </div>
 
             <!-- Contact Us -->
-            <section id="contact" class="samestylesection">
-                <h2>Contact Us</h2>
+            <div class="stylelv1">
+                <section id="contact">
 
-                <!-- Send Message Form -->
-                <div class="form">
-                    <h3>Send us a message</h3>
-                    <form action="list.html" method="post">
-                        <div>
-                            <label for="fullname">Your name</label>
-                            <input type="text" id="fullname" name="fullname">
-                        </div>
-                        <div>
-                            <label for="youremail">Email</label>
-                            <input type="email" id="youremail" required>
-                        </div>
-                        <div>
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message"></textarea>
-                        </div>
-                        <div>
-                            <button type="button">Send</button>
-                        </div>
-                    </form>
-                </div>
+                    <h2>Contact Us</h2>
 
-                <!-- Operation Hours -->
-
-                <div class="hour">
-                    <h3>Hours of operation</h3>
-                    <div class="hourtable">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Days</th>
-                                    <th>Hours</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Monday-Friday</td>
-                                    <td>9 AM - 6 PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday - Sunday</td>
-                                    <td>Closed</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <!-- Send Message Form -->
+                    <div class="form">
+                        <h3>Send us a message</h3>
+                        <form action="list.html" method="post">
+                            <div>
+                                <label for="fullname">Your name</label>
+                                <input type="text" id="fullname" name="fullname">
+                            </div>
+                            <div>
+                                <label for="youremail">Email</label>
+                                <input type="email" id="youremail" required>
+                            </div>
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message"></textarea>
+                            </div>
+                            <div>
+                                <button type="button">Send</button>
+                            </div>
+                        </form>
                     </div>
-                </div>
 
-                <!-- Location -->
+                    <!-- Operation Hours -->
 
-                <div class="location">
-                    <h3>Location</h3>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22433.159694797996!2d-75.76956419999999!3d45.34588595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701216531458!5m2!1sen!2sca"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                    <div class="hour">
+                        <h3>Hours of operation</h3>
+                        <div class="hourtable">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Days</th>
+                                        <th>Hours</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Monday-Friday</td>
+                                        <td>9 AM - 6 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Saturday - Sunday</td>
+                                        <td>Closed</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
 
-            </section>
+                    <!-- Location -->
+
+                    <div class="location">
+                        <h3>Location</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22433.159694797996!2d-75.76956419999999!3d45.34588595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701216531458!5m2!1sen!2sca"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </section>
+            </div>
         </main>
 
         <!-- footer and credit -->
-        <footer class="site-footer">
-            <ul class="attr-list">
+        <footer>
+            <ul>
                 <li>&copy; Copyright Three Star Media, 2020</li>
                 <li>All images are taken from <a href="https://unsplash.com">Unsplash</a></li>
             </ul>
         </footer>
+
     </div>
 </body>
 
