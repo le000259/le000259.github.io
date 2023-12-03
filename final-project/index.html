@@ -28,39 +28,43 @@
 
             <!-- navigations in the header -->
 
-            <nav class="stylelv1">
-                <ul>
+            <nav>
+                <section class="stylelv1">
+                    <ul>
 
-                    <!-- logo -->
-                    <li>
-                        <a href="#home"><img src="images/logo.png" alt="Three Star Media logo" class="logo"></a>
-                    </li>
+                        <!-- logo -->
+                        <li>
+                            <a href="#home"><img src="images/logo.png" alt="Three Star Media logo" class="logo"></a>
+                        </li>
 
-                    <!-- other navs -->
+                        <!-- other navs -->
 
-                    <li><a href="#home" class="current">Home</a></li>
-                    <li><a href="#aboutus">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home" class="current">Home</a></li>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
 
-                    <!-- search bar -->
+                        <!-- search bar -->
 
-                    <li>
-                        <form action="search.html" method="post">
-                            <label for="searchbar"></label>
-                            <input id="searchbar" type="text" name="searchbar" placeholder="Search">
-                        </form>
-                        <i class="fa-solid fa-magnifying-glass fa-beat"></i>
-                    </li>
+                        <li class="searchbar">
+                            <form action="search.html" method="post">
+                                <label for="searchbar"></label>
+                                <input id="searchbar" type="text" name="searchbar" placeholder="Search">
+                            </form>
+                            <div class="glass">
+                                <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+                            </div>
+                        </li>
 
-                </ul>
+                    </ul>
+                </section>
             </nav>
 
             <!-- banner -->
 
-            <div class="stylelv1" class="banner">
-                <section>
+            <div class="banner">
+                <section class="stylelv1">
                     <h1>Welcome to Three Star Media</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam mollitia, officiis eum ex a
                         asperiores illum magni iure suscipit minima vero quas. Pariatur modi, autem nemo adipisci
@@ -74,10 +78,10 @@
         <main>
 
             <!-- about us -->
-            <div class="stylelv1">
-                <section id="aboutus">
+            <div id="aboutus">
+                <section class="stylelv1">
                     <img src="images/about-us.jpg" alt="About Us">
-                    <article>
+                    <article class="stylelv2">
                         <h2>About Us</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo provident maiores animi
                             necessitatibus. Ex iusto voluptate nulla provident. Impedit, officia voluptate consectetur
@@ -93,8 +97,8 @@
 
             <!-- Our Services -->
 
-            <div class="stylelv1">
-                <section id="services">
+            <div id="services">
+                <section class="stylelv1">
                     <h2>Our Services</h2>
 
                     <!-- digital transformation -->
@@ -174,28 +178,28 @@
             </div>
             <!-- Our Vision -->
 
-            <div class="stylelv1" id="vision">
-                <article>
+            <div id="vision">
+                <section class="stylelv1">
                     <h3>Our Vision</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum sequi libero, mollitia
                         cupiditate
                         sit voluptatibus perferendis nobis ad quae est ipsam laboriosam rerum recusandae sed nam.
                         Exercitationem, quaerat repellendus.</p>
                     <a href="#learnmore" target="_blank">Learn More <i class="fa-solid fa-caret-right"></i></a>
-                </article>
+                </section>
             </div>
 
             <!-- Our Team -->
 
-            <div class="stylelv1" id="team">
-                <section>
+            <div id="team">
+                <section class="stylelv1">
                     <h2>Our team</h2>
 
                     <!-- John Doe -->
                     <img src="images/john.jpg" alt="John Doe">
                     <article class="john">
                         <h3>John Doe</h3>
-                        <h4>CEO and Co-owner</h4>
+                        <h5>CEO and Co-owner</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, doloremque quod architecto
                             iste
                             aliquam impedit dolores nesciunt ipsum iusto et qui iure unde est similique placeat
@@ -207,7 +211,7 @@
                     <img src="images/bob.jpg" alt="Bob Rite">
                     <article class="bob">
                         <h3>Bob Rite</h3>
-                        <h4>CFO and Co-owner</h4>
+                        <h5>CFO and Co-owner</h4>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam voluptatum consequatur
                             reprehenderit facilis eligendi ipsum nihil accusamus. Soluta animi, tempore sapiente veniam
                             suscipit eum deserunt aperiam itaque, asperiores quibusdam neque!</p>
@@ -216,17 +220,17 @@
             </div>
 
             <!-- Contact Us -->
-            <div class="stylelv1">
-                <section id="contact">
+            <div id="contact">
+                <section class="stylelv1">
 
                     <h2>Contact Us</h2>
 
                     <!-- Send Message Form -->
                     <div class="form">
-                        <h3>Send us a message</h3>
+                        <h4>Send us a message</h3>
                         <form action="list.html" method="post">
                             <div>
-                                <label for="fullname">Your name</label>
+                                <label for="fullname">Full name</label>
                                 <input type="text" id="fullname" name="fullname">
                             </div>
                             <div>
@@ -246,7 +250,7 @@
                     <!-- Operation Hours -->
 
                     <div class="hour">
-                        <h3>Hours of operation</h3>
+                        <h4>Hours of operation</h3>
                         <div class="hourtable">
                             <table>
                                 <thead>
@@ -272,7 +276,7 @@
                     <!-- Location -->
 
                     <div class="location">
-                        <h3>Location</h3>
+                        <h4>Location</h3>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22433.159694797996!2d-75.76956419999999!3d45.34588595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701216531458!5m2!1sen!2sca"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -285,10 +289,12 @@
 
         <!-- footer and credit -->
         <footer>
-            <ul>
-                <li>&copy; Copyright Three Star Media, 2020</li>
-                <li>All images are taken from <a href="https://unsplash.com">Unsplash</a></li>
-            </ul>
+            <div class="stylelv1">
+                <ul>
+                    <li>&copy; Copyright Three Star Media, 2020</li>
+                    <li>All images are taken from <a href="https://unsplash.com">Unsplash</a></li>
+                </ul>
+            </div>
         </footer>
 
     </div>

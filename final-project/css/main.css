@@ -9,16 +9,17 @@ body {
     line-height: 1.5;
 }
 
-h1 { font-size: 6.25em; }
-h2 { font-size: 4.3322em; }
-h3 { font-size: 3.0028em; }
-h4 { font-size: 2.0814em; }
-h5 { font-size: 1.4427em; }
-small { font-size: .6931em; }
+h1 { font-size: 4.25em; }
+h2 { font-size: 3.1821em; }
+h3 { font-size: 2.3825em; }
+h4 { font-size: 1.7838em; }
+h5 { font-size: 1.3356em; }
+small { font-size: .7487em; }
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Anton';
 	font-weight: bold;
+    
 }
 
 *,
@@ -34,13 +35,23 @@ h1, h2, h3, h4, h5 {
     clear: both;
 }
 
+/* image scale with the size of its container */
 img {
     width: 100%;
+    height: auto;
+    display: block;
 }
 
-.stylelv1, footer {
-    max-width: 1200px;
+/* center and padding and set the general style */
+.stylelv1,
+article {
     margin: 0 auto;
+    padding: 1em;
+}
+
+.stylelv2 {
+    margin: 0 auto;
+    padding: 0 0 1em 0;
 }
 
 /* link, visited, hover/focus, active , no underline*/
@@ -49,41 +60,169 @@ a,
 a:link,
 a:visited {
     color: inherit;
-}
-
-a:hover,
-a:focus {
-    color: #00add8;
+    
 }
 
 a {
     text-decoration: none;
 }
 
-/************* HEADER *********************/
+/* background color of article */
 
-.banner {
-    height: 600px;
-    background: grey url(../images/smog-mobile.jpg) no-repeat;
-    background-size: cover;
+article {
+    background-color: #ffe6ac;
 }
 
+/* set padding bottom for all paragraphs */
+
+p {
+    padding: 1em 0 1em 0;
+}
+
+/************* HEADER *********************/
+
+/*++++++++++ navigation bar ++++++++++*/
 header nav {
     background-color: black;
     color: #c78b07;
 }
- 
-.banner section{
-    background-color: rgba(255,255, 255, 0.6);
-} 
 
+nav ul li {
+    text-align: center;
+    padding: 1em ;
+    
+}
+
+/* logo portion */
+
+.logo {
+    width: 10%;
+    
+}
+
+nav ul li:nth-child(1) {
+    background-color: #c78b07;
+    padding-left: 0;
+}
+
+/* hover over the nav */
+
+nav ul li:hover,
+nav ul li:focus {
+    background-color: #c78b07;
+    color: black;
+}
+
+/* search bar */
+
+.searchbar:hover,
+.searchbar:focus {
+    background-color: black;
+    color: #c78b07;
+}
+
+.searchbar {
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+
+.searchbar form {
+    width: 95%;
+}
+
+/* inside the form */
+
+#searchbar {
+    width: 100%;
+    height: 3em;
+}
+
+input::placeholder {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* glass */
+.glass {
+    border:1px solid #c78b07;
+    padding: 3px;
+    width: 5%;
+}
+
+/*+++++++++++++ banner section ++++++++++++++++++*/
+
+.banner {
+    background-image: url(../images/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em 0 3em 0;
+}
+
+.banner section {
+    background-color: rgba(0,0, 0, 0.6);
+    
+    
+}
+
+.banner h1, .banner p {
+    color: white;
+}
+
+/* dressing the button */
+
+.banner a {
+    display: inline-block;
+    background-color: #c78b07;
+    padding: 1.5em;
+}
 
 
 /************* MAIN *********************/
 
+/*+++++++++++++ About Us ++++++++++++++++++*/
 
+#aboutus {
+    background-color: #ffe6ac;
+}
 
+/*+++++++++++++ Our Services ++++++++++++++++++*/
 
+.stylelv2 a{
+    display: inline-block;
+    background-color: black;
+    padding: 1.5em;
+    color: white;
+}
+
+/*+++++++++++++ Our Vision ++++++++++++++++++*/
+
+#vision section {
+    background-image: url(../images/vision.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+#vision a{
+    display: inline-block;
+    background-color: black;
+    padding: 1.5em;
+    border:1px solid #c78b07;
+}
+
+/*+++++++++++++ Our Team ++++++++++++++++++*/
+
+h5 {
+    border-bottom: 1px solid #c78b07;
+    
+}
+
+#team article {
+    margin-bottom: 1em;
+}
+
+/*+++++++++++++ Contact Us ++++++++++++++++++*/
 
 
 
@@ -92,8 +231,11 @@ header nav {
 
 footer {
     background-color: black;
-    color: #c78b07;
-    padding: 1.5em;
+    color: #c78b07;  
+}
+
+footer ul {
+    padding: 1em;
 }
 
 
@@ -104,11 +246,21 @@ footer {
 
 
 
-/************ MOBILE *********************/
+
+/****************************************
+              DESKSTOP STYLES
+****************************************/
+
+
+@media screen and (min-width:600px) {
+    .stylelv1 {
+        max-width: 1200px;
+    }
 
 
 
 
-
-
-/************ DESKTOP *********************/
+    #team article {
+        margin-bottom: 0;
+    }
+}
