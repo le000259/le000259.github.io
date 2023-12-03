@@ -1,0 +1,61 @@
+/************GLOBAL STYLES**********/
+
+html {
+	font-family: 'Dosis';
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+}
+
+h1 { font-size: 6.25em; }
+h2 { font-size: 4.3322em; }
+h3 { font-size: 3.0028em; }
+h4 { font-size: 2.0814em; }
+h5 { font-size: 1.4427em; }
+small { font-size: .6931em; }
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Anton';
+	font-weight: bold;
+}
+
+/* header,
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+} */
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    line-height: inherit;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 100%;
+}
+
+/* link, visited, hover/focus, active */
+
+a,
+a:link,
+a:visited {
+    color: inherit;
+}
+
+a:hover,
+a:focus {
+    color: #00add8;
+}
+
