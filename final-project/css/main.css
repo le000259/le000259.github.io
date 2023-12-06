@@ -107,7 +107,7 @@ p {
 /*++++++++++ navigation bar ++++++++++*/
 header nav {
     background-color: #222;
-    color: #c78b07;
+    color: #c78c06;
 }
 
 nav ul li {
@@ -124,7 +124,7 @@ nav ul li {
 }
 
 nav ul li:nth-child(1) {
-    background-color: #c78b07;
+    background-color: #c78c06;
     padding-left: 0;
 }
 
@@ -132,7 +132,7 @@ nav ul li:nth-child(1) {
 
 nav ul li:hover,
 nav ul li:focus {
-    background-color: #c78b07;
+    background-color: #c78c06;
     color: #222;
 }
 
@@ -141,7 +141,7 @@ nav ul li:focus {
 .searchbar:hover,
 .searchbar:focus {
     background-color: #222;
-    color: #c78b07;
+    color: #c78c06;
 }
 
 .searchbar {
@@ -169,7 +169,7 @@ input::placeholder {
 
 /* glass */
 .glass {
-    border: 1px solid #c78b07;
+    border: 1px solid #c78c06;
     padding: 3px;
     width: 7%;
 }
@@ -200,7 +200,7 @@ h1 {
 
 .banner a {
     display: inline-block;
-    background-color: #c78b07;
+    background-color: #c78c06;
     padding: 1.5em;
 }
 
@@ -235,13 +235,13 @@ h1 {
     display: inline-block;
     background-color: #222;
     padding: 1.5em;
-    border: 1px solid #c78b07;
+    border: 1px solid #c78c06;
 }
 
 /*+++++++++++++ Our Team ++++++++++++++++++*/
 
 h5 {
-    border-bottom: 1px solid #c78b07;
+    border-bottom: 1px solid #c78c06;
 
 }
 
@@ -269,7 +269,7 @@ textarea {
 
 button {
     background-color: #222;
-    color: #c78b07;
+    color: #c78c06;
     border: 1px solid #222;
     padding: 0.25em;
     font-size: inherit;
@@ -318,7 +318,7 @@ iframe {
 
 footer {
     background-color: #222;
-    color: #c78b07;
+    color: #c78c06;
 }
 
 footer a {
