@@ -1,7 +1,7 @@
 /************ GLOBAL STYLES **********/
 
 html {
-	font-family: 'Dosis';
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     font-size: 14px;
 }
@@ -10,16 +10,37 @@ body {
     line-height: 1.5;
 }
 
-h1 { font-size: 4.25em; }
-h2 { font-size: 3.1821em; }
-h3 { font-size: 2.3825em; }
-h4 { font-size: 1.7838em; }
-h5 { font-size: 1.3356em; }
-small { font-size: .7487em; }
+h1 {
+    font-size: 4.25em;
+}
 
-h1, h2, h3, h4, h5 {
-	font-family: 'Anton';
-	font-weight: bold;
+h2 {
+    font-size: 3.1821em;
+}
+
+h3 {
+    font-size: 2.3825em;
+}
+
+h4 {
+    font-size: 1.7838em;
+}
+
+h5 {
+    font-size: 1.3356em;
+}
+
+small {
+    font-size: .7487em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     padding-top: 0.5em;
 }
 
@@ -61,7 +82,7 @@ a,
 a:link,
 a:visited {
     color: inherit;
-    
+
 }
 
 a {
@@ -85,13 +106,13 @@ p {
 
 /*++++++++++ navigation bar ++++++++++*/
 header nav {
-    background-color: black;
+    background-color: #222;
     color: #c78b07;
 }
 
 nav ul li {
     text-align: center;
-    padding: 1em ;
+    padding: 1em;
     font-size: 1.3356em;
 }
 
@@ -99,7 +120,7 @@ nav ul li {
 
 .logo {
     width: 10%;
-    
+
 }
 
 nav ul li:nth-child(1) {
@@ -112,14 +133,14 @@ nav ul li:nth-child(1) {
 nav ul li:hover,
 nav ul li:focus {
     background-color: #c78b07;
-    color: black;
+    color: #222;
 }
 
 /* search bar */
 
 .searchbar:hover,
 .searchbar:focus {
-    background-color: black;
+    background-color: #222;
     color: #c78b07;
 }
 
@@ -137,8 +158,8 @@ nav ul li:focus {
 
 input {
     width: 100%;
-    height: 3em;
-    border: 1px solid black;
+    height: 3.5em;
+    border: 1px solid #222;
 }
 
 input::placeholder {
@@ -148,9 +169,9 @@ input::placeholder {
 
 /* glass */
 .glass {
-    border:1px solid #c78b07;
+    border: 1px solid #c78b07;
     padding: 3px;
-    width: 5%;
+    width: 7%;
 }
 
 /*+++++++++++++ banner section ++++++++++++++++++*/
@@ -163,10 +184,11 @@ input::placeholder {
 }
 
 .banner section {
-    background-color: rgba(0,0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-.banner h1, .banner p {
+.banner h1,
+.banner p {
     color: white;
 }
 
@@ -193,34 +215,34 @@ h1 {
 
 /*+++++++++++++ Our Services ++++++++++++++++++*/
 
-.stylelv2 a{
+.stylelv2 a {
     display: inline-block;
-    background-color: black;
+    background-color: #222;
     padding: 1.5em;
     color: white;
 }
 
 /*+++++++++++++ Our Vision ++++++++++++++++++*/
 
-#vision section {
+.visi {
     background-image: url(../images/vision.jpg);
     background-repeat: no-repeat;
     background-position: 40% 40%;
     color: white;
 }
 
-#vision a{
+#vision a {
     display: inline-block;
-    background-color: black;
+    background-color: #222;
     padding: 1.5em;
-    border:1px solid #c78b07;
+    border: 1px solid #c78b07;
 }
 
 /*+++++++++++++ Our Team ++++++++++++++++++*/
 
 h5 {
     border-bottom: 1px solid #c78b07;
-    
+
 }
 
 #team article {
@@ -235,6 +257,7 @@ h5 {
 .hour {
     padding: 1em 0 1em 0;
 }
+
 .form label {
     display: block;
 }
@@ -245,10 +268,10 @@ textarea {
 }
 
 button {
-    background-color: black;
+    background-color: #222;
     color: #c78b07;
-    border: 1px solid black;
-    padding:0.25em;
+    border: 1px solid #222;
+    padding: 0.25em;
     font-size: inherit;
 }
 
@@ -265,11 +288,12 @@ thead {
 
 tr {
     height: 3em;
-    border: 1px solid black;
+    border: 1px solid #222;
 }
 
-th, td {
-    border: 1px solid black;
+th,
+td {
+    border: 1px solid #222;
     vertical-align: middle;
 }
 
@@ -293,10 +317,13 @@ iframe {
 /************* FOOTER *********************/
 
 footer {
-    background-color: black;
-    color: #c78b07;  
+    background-color: #222;
+    color: #c78b07;
 }
 
+footer a {
+    font-size: initial;
+}
 
 
 
@@ -305,15 +332,22 @@ footer {
 ****************************************/
 
 
-@media screen and (min-width:600px) {
-    
+@media screen and (min-width:760px) {
+
     /* global */
 
     html {
         font-size: 16px;
     }
+
     .stylelv1 {
         max-width: 1200px;
+    }
+
+    /* change size of h1 */
+
+    h1 {
+        font-size: 6em;
     }
 
     /* nav bar */
@@ -322,7 +356,7 @@ footer {
         display: flex;
         padding: 2em;
         width: 100%;
-        
+
     }
 
     nav ul li {
@@ -336,8 +370,9 @@ footer {
         padding: 0;
     }
 
+    /* fix the logo size */
     .logo {
-        width: 100%;
+        width: 100px;
     }
 
     /* search bar area */
@@ -347,37 +382,139 @@ footer {
     }
 
     .glass {
-        width:100%;
+        width: 100%;
         flex: 1 0 35px;
     }
 
     /* banner background */
-    
+
     .banner {
         background-position: 10% 50%;
     }
 
     /* about us */
-    
+
     .us {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
-        "pic content"
+            "pic content"
         ;
     }
 
     .us img {
         grid-area: pic;
+        /* height: 100%; */
     }
+
     .us article {
         grid-area: content;
+        padding-left: 1em;
+    }
+
+    /* our services */
+
+    .ser {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            "digital digital digital marketing marketing marketing"
+            "video video web web print print"
+        ;
+        column-gap: 1em;
+    }
+
+    .digital {
+        grid-area: digital;
+    }
+
+    .marketing {
+        grid-area: marketing;
+    }
+
+    .video {
+        grid-area: video;
+    }
+
+    .web {
+        grid-area: web;
+    }
+
+    .print {
+        grid-area: print;
+    }
+
+    /* change the button of the services into full block */
+
+    .ser a {
+        display: block;
+        text-align: center ;
+    }
+
+    /* our vision image background */
+
+    .visi {
+        background-size: cover;
     }
 
     /* remove the padding below the team info */
 
     #team article {
         margin-bottom: 0;
+    }
+
+    /* grid the our team */
+
+    .gridteam {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            "johnpic john"
+            "bob bobpic"
+        ;
+    }
+
+    .johnpic {
+        grid-area: johnpic;
+    }
+
+    .john {
+        grid-area: john;
+    }
+
+    .bobpic {
+        grid-area: bobpic;
+    }
+
+    .bob {
+        grid-area: bob;
+    }
+
+    /* contact us grid */
+
+    .contactgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+            "form location"
+            "hour hour"
+        ;
+        column-gap: 1em;
+    }
+
+    .form {
+        grid-area: form;
+    }
+
+    .location {
+        grid-area: location;
+    }
+
+    .hour {
+        grid-area: hour;
     }
 
 
