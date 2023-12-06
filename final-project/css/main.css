@@ -417,7 +417,7 @@ footer a {
     .ser {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
         grid-template-areas:
             "digital digital digital marketing marketing marketing"
             "video video web web print print"
